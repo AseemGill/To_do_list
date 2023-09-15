@@ -18,7 +18,6 @@ for (i = 0; i < checkboxes.length; i++) {
 for (i = 0; i < addButton.length; i++) {
     var button = addButton[i]
     button.addEventListener("click",addRow)
-    var removeButtons = document.body.getElementsByClassName("remove-button")
     var checkboxes = document.body.getElementsByClassName("checkbox")
 }
 
