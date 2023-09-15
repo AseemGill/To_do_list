@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Notable&display=swap");
+
+* {
+    box-sizing: border-box; /* width attribute takes into account padding now 
+    
+    with this width = 200px including padding
+    without this width = 200px and padding will be around*/
+    font-family: Aleo; /* Select font for everything */
+    color: rgba(28, 28, 28, 0.85);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+} /* Gets rid of margin near the edge of window  But we may notice that there is a margin at the top... this is because the ul element has a margin as well The fix is below*/
+
+
+body {
+    background-image: linear-gradient(to bottom right, blue, magenta, rgb(27, 210, 27), yellow);
+    background-attachment: fixed; /*edit*/
+}
+.title {
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-family: Notable;
+    color: azure;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin-right: 1.5em;
+    margin-top: 10px;
+}
+
+.checkbox {
+    width: 10%;
+    border:rgba(0, 0, 0);
+    border-style: solid;
+    border-width: 10px;
+}
+
+.checkbox label {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.checkbox:hover {
+    transform: scale(1.5);
+    accent-color: rgb(255, 7, 7);
+}
+
+.task {
+    width: 50%;
+    margin-right: 2%;
+    margin-right: 2%;
+} 
+
+.to-do-list {
+    margin: auto;
+    display: block;
+}
+
+.add-item {
+    margin: 1em 17%;
+}
+
+.remove-button {
+    border-radius: 10%;
+    color: aliceblue;
+    background-color: orange;
+    border-color: grey;
+    font-weight: bold;
+}
+
+.remove-button:hover {
+    transform: scale(1.3);
+    background-color: red;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.task {
+    border:rgba(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(160, 160, 160, 0.782);
+    color: white;
+    font-weight: bold;
+}
+
+.add-item {
+    background-color: rgba(255, 255, 255, 0);
+}
