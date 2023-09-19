@@ -25,6 +25,7 @@ body {
     text-align: center;
     font-family: Notable;
     color: azure;
+    padding-bottom: 0.25em;
 }
 
 
@@ -32,7 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
+    /* max-width: 800px; */
     margin-right: 1.5em;
     margin-top: 10px;
 }
